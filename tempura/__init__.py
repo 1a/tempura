@@ -1,0 +1,3 @@
+"""Tempura - A beautiful CLI weather application."""
+
+__version__ = "0.1.0"

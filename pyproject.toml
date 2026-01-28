@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "tempura"
+version = "0.1.0"
+description = "A beautiful CLI weather application with animated ASCII art"
+authors = ["Val Damian <ivdamian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tempura"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^0.47.0"
+rich = "^13.7.0"
+httpx = "^0.25.0"
+pydantic = "^2.5.0"
+pydantic-settings = "^2.1.0"
+python-dotenv = "^1.0.0"
+typer = "^0.9.0"
+platformdirs = "^4.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.0"
+black = "^23.12.0"
+ruff = "^0.1.9"
+
+[tool.poetry.scripts]
+tempura = "tempura.__main__:main"
+tempura-cli = "tempura.cli:main"
+
+[project]
+name = "tempura"
+version = "0.1.0"
+description = "A beautiful CLI weather application with animated ASCII art"
+authors = [{name = "Val Damian", email = "ivdamian@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=0.47.0",
+    "rich>=13.7.0",
+    "httpx>=0.25.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "python-dotenv>=1.0.0",
+    "typer>=0.9.0",
+    "platformdirs>=4.1.0",
+]
+
+[project.scripts]
+tempura = "tempura.__main__:main"
+tempura-cli = "tempura.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
