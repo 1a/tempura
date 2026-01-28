@@ -5,7 +5,7 @@ A beautiful CLI weather application with animated ASCII art icons, built with Py
 ## Features
 
 - **Current Weather Display** - View real-time weather conditions with animated ASCII art icons
-- **7-Day Forecast** - Browse daily weather predictions in an elegant card layout
+- **Multi-Day Forecast** - Browse daily weather predictions in an elegant card layout
 - **Hourly Forecast** - Check hour-by-hour weather for the next 48 hours
 - **Multiple Locations** - Save and manage your favorite cities
 - **Customizable Settings** - Configure temperature units, animation preferences, and more
@@ -14,11 +14,23 @@ A beautiful CLI weather application with animated ASCII art icons, built with Py
 
 ## Screenshots
 
-The app features:
-- Large animated weather icons (sun, rain, snow, clouds, etc.)
-- Clean, readable layouts with Rich text formatting
-- Intuitive navigation with arrow keys and keyboard shortcuts
-- Real-time loading indicators and error handling
+### Main Menu
+![Main Menu](tempura-main-menu.png)
+
+### Current Weather
+![Current Weather](tempura-current-weather.png)
+
+### Multi-Day Forecast
+![Multi-Day Forecast](tempura-multi-day-weather.png)
+
+### 48-Hour Forecast
+![48-Hour Forecast](tempura-48hour-forecast.png)
+
+### Multiple Locations
+![Multiple Locations](tempura-multiple-locations-weather.png)
+
+### Settings
+![Settings](tempura-settings.png)
 
 ## Installation
 
@@ -139,7 +151,7 @@ poetry run python -m tempura.cli current "London" --unit celsius --api-key YOUR_
 ### Forecast
 
 ```bash
-# Get 7-day forecast
+# Get multi-day forecast
 poetry run python -m tempura.cli forecast "Tokyo" --days 7
 
 # With specific temperature unit

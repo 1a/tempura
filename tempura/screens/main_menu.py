@@ -27,7 +27,7 @@ class MainMenuScreen(Screen):
 
                 menu_items = ListView(
                     ListItem(Label("🌤️  Current Weather"), id="current-weather"),
-                    ListItem(Label("📅  5-Day Forecast"), id="forecast"),
+                    ListItem(Label("📅  Multi-Day Forecast"), id="forecast"),
                     ListItem(Label("⏰  Hourly Forecast"), id="hourly"),
                     ListItem(Label("📍  Manage Locations"), id="locations"),
                     ListItem(Label("⚙️   Settings"), id="settings"),
