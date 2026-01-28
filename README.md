@@ -15,22 +15,22 @@ A beautiful CLI weather application with animated ASCII art icons, built with Py
 ## Screenshots
 
 ### Main Menu
-![Main Menu](tempura-main-menu.png)
+![Main Menu](assets/tempura-main-menu.png)
 
 ### Current Weather
-![Current Weather](tempura-current-weather.png)
+![Current Weather](assets/tempura-current-weather.png)
 
 ### Multi-Day Forecast
-![Multi-Day Forecast](tempura-multi-day-weather.png)
+![Multi-Day Forecast](assets/tempura-multi-day-weather.png)
 
 ### 48-Hour Forecast
-![48-Hour Forecast](tempura-48hour-forecast.png)
+![48-Hour Forecast](assets/tempura-48hour-forecast.png)
 
 ### Multiple Locations
-![Multiple Locations](tempura-multiple-locations-weather.png)
+![Multiple Locations](assets/tempura-multiple-locations-weather.png)
 
 ### Settings
-![Settings](tempura-settings.png)
+![Settings](assets/tempura-settings.png)
 
 ## Installation
 
